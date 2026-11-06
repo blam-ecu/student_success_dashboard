@@ -27,29 +27,3 @@ to estimate historical passing likelihood and provide examination-planning guida
 The final deployed model is a **sigmoid-calibrated logistic regression model** validated using an independent temporal holdout cohort.
 
 ---
-
-# Project Structure
-
-```text
-student_success/
-│
-├── train_model.py
-├── temporal_validation.py
-├── dashboard.py
-├── utils.py
-│
-├── data/
-│   ├── training.xlsx
-│   └── temporal_holdout.xlsx
-│
-├── models/
-│   ├── logistic_model.pkl
-│   ├── feature_columns.pkl
-│   └── course_list.pkl
-│
-├── outputs/
-│   ├── model_comparison.xlsx
-│   ├── reliability_comparison.png
-│   └── dashboard_screenshot.png
-│
-└── requirements.txt# student_success_dashboard
