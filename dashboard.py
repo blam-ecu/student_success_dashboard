@@ -25,11 +25,11 @@ st.set_page_config(
 with open("logistic_model_sigmoid.pkl", "rb") as f:
     model = pickle.load(f)
 
-with open("models/feature_columns.pkl", "rb") as f:
+with open("feature_columns.pkl", "rb") as f:
     feature_columns = pickle.load(f)
 
-with open("models/course_list.pkl", "rb") as f:
-    course_list = pickle.load(f)
+# with open("models/course_list.pkl", "rb") as f:
+#     course_list = pickle.load(f)
 
 # ==================================================
 # TITLE
