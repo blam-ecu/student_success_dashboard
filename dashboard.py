@@ -22,7 +22,7 @@ st.set_page_config(
 # LOAD MODEL
 # ==================================================
 
-with open("models/logistic_model_sigmoid.pkl", "rb") as f:
+with open("logistic_model_sigmoid.pkl", "rb") as f:
     model = pickle.load(f)
 
 with open("models/feature_columns.pkl", "rb") as f:
